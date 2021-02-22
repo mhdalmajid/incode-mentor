@@ -23,7 +23,7 @@ app.set("env", process.env.NODE_ENV)
 
 app.set("view engine", "ejs")
 app.set("views", path.join(__dirname, "../views"))
-// app.set('views', path.resolve(__dirname, 'views'))
+
 
 app.use(express.static(path.join(__dirname, "./public")))
 app.use(express.json())

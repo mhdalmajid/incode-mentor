@@ -1,7 +1,7 @@
 {
   "name": "inco-mentor",
   "version": "1.0.0",
-  "description": "express application",
+  "description": "express applications",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
